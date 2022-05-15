@@ -1,0 +1,84 @@
+/* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+
+  body {
+    background-color: black;
+    color: white;
+    font-family: Space Grotesk;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: white;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  
+  p {
+    font-size: 20px;
+  }
+
+  #welcome-section {
+    height: 500;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: 
+    url("https://cdn.pixabay.com/photo/2011/12/14/12/21/orion-nebula-11107_960_720.jpg")
+  }
+#projects{
+  height: 500px;
+  text-align: center;
+
+
+}
+
+.row {
+  display:flex;
+  flex-direction: row;
+  width: 100%;
+
+}
+
+.column {
+  display:flex;
+  flex-direction: column;
+  flex:1;
+  border: 1px purple;
+}
+
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: purple;
+    color: white;
+  }
