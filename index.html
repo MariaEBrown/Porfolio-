@@ -5,73 +5,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title> Maria Brown// Full Stack Developer</title>
+    <title> My Porfolio</title>
 </head>
 
-
-    
-<header></header>
-<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
-
-</header>
-
-<!-- Top Navigation Menu -->
-<div class="topnav">
-  <a href="#home" class="active">Logo</a>
-  <!-- Navigation links (hidden by default) -->
-  <div id="myLinks">
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-    <a href="#about">About</a>
-  </div>
-  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-</div>
 <body>
-    <section id="welcome-section">
-        <div>
-            <h1>Full Stack Web Developer</h1>
-            <p> Maria E. Brown </p>
+    <header>
+        <nav>
+            <ul class="navList">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#porfolio">Porfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                
+                <li><a href="https://github.com/MariaEBrown"><img src="assets/GitHub-Mark-32px.png" alt="GitHub"></a></li>
+                <li><a href="https://www.linkedin.com/in/maria-quintanilla-brown-058664b9/"><img src="assets/LI-In-Bug.png" 
+                    alt="LinkedIn"></a></li>
+
+            </ul>
+
+        </nav>
+    </header>
+
+    <section id="banner">
+
+        <figure id="home">
+            <figcaption class="text-center">Hello! my name is Maria Brown. I'm currently a student in the Georgia Tech Full Stack Web Development program.</figcaption>
+
+        </figure>
+
+    </section>
+
+
+    <section id="porfolio" class="porfolio">
+        <h1>Porfolio</h1>
+
+        <div id="projectOne" class="projectCard">
+            <h2>Project 1</h2>
+            <a href="https://mariaebrown.github.io/Future-Pet-Place/">
+                <img src="assets/png-transparent-pet-sitting-dog-cat-beechwood-veterinary-clinic-pet-dogs-and-cats-fogs-and-cats-illustration-animals-cat-like-mammal-carnivoran-thumbnail.png" alt="Project 1 Placeholder"></a>
+                <p>Project: Future Pet Place- A pet-finder application created by animal lovers to help locate available pets for adoption.</p>
+                
+        </div>
+        <div class="projectCard"></div>
+            <h2>Project 2</h2>
+            <a href="https://mariaebrown.github.io/NoteApp/"><img src="assets/checklist-1643781_640.png" alt="Project 2 Placeholder"></a>
+                <p>Project: Noteapp- A Handy Note Taker which will allow the user to write and store notes!</p>
+            
+        <div class="projectCard">
+            <h2>Project 3</h2>
+            <p>Project 3 Name & place holder</p>
+
+        </div>
+       
+        <div class="projectCard">
+            <h2>Project 4</h2>
+            <p>Project 4 Name & place holder</p>
             
         </div>
-    </section>
-<section id="projects">
-    <h1>Porfolio</h1>
-
-    <div class="grid-container">
-        <div class="row">
-            <div class="column">
-               href= "https://mariaebrown.github.io/work-day-scheduler/"
-            </div>
-            <div class="column">
-                2
-
-            </div>
-        </div>
-        <div class="row">
-            <div class="column">
-                3
-
-            </div>
-            <div class="column">
-                4
-
-            </div>
-        </div>
-    </div>
 </section>
-    
-        
 
- <script src="style.js">
+<footer id="contact" class="contact">
+    <ul>
+        <li>
+            <a href="#">Maria E Brown</a>
+            <a href="tel:404-862-8994">Contact</a>
+            <a href="mariabrown0908@gmail.com">Email</a>
 
- </script>
- 
+        </li>
+    </ul>
+</footer>
+
 </body>
 </html>
+
+
+    
